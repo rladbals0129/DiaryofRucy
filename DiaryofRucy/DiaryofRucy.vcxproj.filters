@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2D FrameWork">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{b9fa69bb-7b8d-4e11-8ada-dc1984d43ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManagerClass">
+      <UniqueIdentifier>{ecd05a54-2537-4771-821a-61141755f54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\DesignPattern">
+      <UniqueIdentifier>{e581c4e9-62b6-4da9-81e7-c9f92154223f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\DesignPattern\Singleton">
+      <UniqueIdentifier>{2b79956d-814c-4361-bb45-a5b71e33dc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\FrameWorkManager">
+      <UniqueIdentifier>{c1fdd883-5185-4c18-b58e-ab82d6b9987c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\GameCore">
+      <UniqueIdentifier>{1e792a1c-9403-43db-8fd6-c0be0be7d413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\PCH">
+      <UniqueIdentifier>{44582783-6c47-419b-bfae-5a13d616e0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\Utility">
+      <UniqueIdentifier>{449c75c9-51f1-4d64-b6a6-9eff6341ac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\GImage">
+      <UniqueIdentifier>{5f79cc87-8885-4d95-90d0-70976dd8e90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\Timer">
+      <UniqueIdentifier>{dd367cb3-ed3f-4acd-972c-f1add0dc7b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Player">
+      <UniqueIdentifier>{4e97575c-bd2f-43c8-b2c2-2c4f5bc4983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy">
+      <UniqueIdentifier>{1f42769e-dc45-4d08-a154-5de4b5c4b858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object">
+      <UniqueIdentifier>{e2ec1b2a-c3e6-4294-844b-f70a028b10c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Map">
+      <UniqueIdentifier>{e006dfbd-254f-49fc-b0a3-ecc26deb7fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\UI">
+      <UniqueIdentifier>{14f2112f-117c-47dc-a556-d7da1dd51776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\System">
+      <UniqueIdentifier>{1862f9e5-c8f9-4525-a30b-7ae5ba5faaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeamReport">
+      <UniqueIdentifier>{961ef358-36e7-47e3-be83-f5f31dcf844a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\ProgressBar">
+      <UniqueIdentifier>{eb2673b1-d96f-4b4d-a4f4-317f51700f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\Animation">
+      <UniqueIdentifier>{08b16760-d594-44ea-992a-5da06a16df88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Stage">
+      <UniqueIdentifier>{22d583fb-2025-4ed8-bb6b-cbfe40689191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy\Bullet">
+      <UniqueIdentifier>{3aa231f5-f7dc-4c1e-99bc-795706f941c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy\Common">
+      <UniqueIdentifier>{ce4e37e1-8220-4402-8936-27c8537c20b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy\Boss">
+      <UniqueIdentifier>{dfad58d7-0ca8-4813-bc66-c77ab33b8679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Player\Bullet">
+      <UniqueIdentifier>{b70d5f03-184f-4b09-b628-1e4bd3e79bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{874533d9-5fa8-4bf7-bb8e-ce54fca7c2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Map\Room">
+      <UniqueIdentifier>{0aa5f325-77ef-48e8-a72f-5208cfd38773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D FrameWork\Schema">
+      <UniqueIdentifier>{7db2cd44-87d2-4de4-8c9b-ff339b160171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Item">
+      <UniqueIdentifier>{78ad1c51-8361-4980-8a4b-9be0317a0aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Player\Skill">
+      <UniqueIdentifier>{62f83215-c80b-4110-b05a-3a86d49c9085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Player\Skill\SkillList">
+      <UniqueIdentifier>{6526c25d-bdb4-44cb-8538-7550d4cfd358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy\Turret">
+      <UniqueIdentifier>{4f230cf7-155e-4806-af81-1abfcc050bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Json">
+      <UniqueIdentifier>{0498ceab-27d9-45cd-b5ea-858b4ababc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Map\MapFunction">
+      <UniqueIdentifier>{74fd6f9f-2546-4a07-a4cc-f89c0b8b2fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Ability">
+      <UniqueIdentifier>{40c1ba6f-017f-4385-af2e-1e5b25f31f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Player\Scene">
+      <UniqueIdentifier>{255f8e93-c3b7-4e93-b06a-489545b98f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2D FrameWork\DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2D FrameWork\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>2D FrameWork\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>2D FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>2D FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>2D FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GImage.h">
+      <Filter>2D FrameWork\GImage</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2D FrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChanger.h">
+      <Filter>Class\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Class\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Class\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Class\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamReport.h">
+      <Filter>TeamReport</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>2D FrameWork\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2D FrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningScene.h">
+      <Filter>Class\Player\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DImageManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2D FrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>Class\Player\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Class\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Class\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Class\Player\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullets.h">
+      <Filter>Class\Enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Flime.h">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Class\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Class\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DImageManager.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="INIData.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMap.h">
+      <Filter>Class\Map\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSaveLoader.h">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Class\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Class\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MushMam.h">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGreenTurret.h">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="IcicleSpark.h">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderFlash.h">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClInclude>
+    <ClInclude Include="WindScar.h">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClInclude>
+    <ClInclude Include="KingSlime.h">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MushMamBoss.h">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaFlime.h">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesClass.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSlime.h">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSaveLoad.h">
+      <Filter>Class\Object\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDataScene.h">
+      <Filter>Class\Object\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>Class\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSample.h">
+      <Filter>Class\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Kruskal.h">
+      <Filter>Class\Map\MapFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Statue.h">
+      <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Fountain.h">
+      <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Potal.h">
+      <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemChest.h">
+      <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleTurret.h">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="MintTurret.h">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTurret.h">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoader.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Class\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Class\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Class\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Class\Player\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Class\Player\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>2D FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2D FrameWork\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>2D FrameWork\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>2D FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GImage.cpp">
+      <Filter>2D FrameWork\GImage</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2D FrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChanger.cpp">
+      <Filter>Class\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Class\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Class\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamReport.cpp">
+      <Filter>TeamReport</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>2D FrameWork\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2D FrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>Class\Player\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Class\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DImageManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2D FrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Class\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningScene.cpp">
+      <Filter>Class\Player\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Class\Player\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullets.cpp">
+      <Filter>Class\Enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Flime.cpp">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Class\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Class\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Class\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DImageManager.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="INIData.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMap.cpp">
+      <Filter>Class\Map\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSaveLoader.cpp">
+      <Filter>2D FrameWork\FrameWorkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Class\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Class\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClCompile>
+    <ClCompile Include="IcicleSpark.cpp">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderFlash.cpp">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClCompile>
+    <ClCompile Include="WindScar.cpp">
+      <Filter>Class\Player\Skill\SkillList</Filter>
+    </ClCompile>
+    <ClCompile Include="MushMam.cpp">
+      <Filter>Class\Enemy\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGreenTurret.cpp">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="KingSlime.cpp">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaFlime.cpp">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MushMamBoss.cpp">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesClass.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSlime.cpp">
+      <Filter>Class\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSaveLoad.cpp">
+      <Filter>Class\Object\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonDataScene.cpp">
+      <Filter>Class\Object\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>Class\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSample.cpp">
+      <Filter>Class\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal.cpp">
+      <Filter>Class\Map\MapFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCollision.cpp">
+      <Filter>Class\Map\MapFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Statue.cpp">
+      <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Fountain.cpp">
+      <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Potal.cpp">
+      <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemChest.cpp">
+      <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleTurret.cpp">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="MintTurret.cpp">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTurret.cpp">
+      <Filter>Class\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoader.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Class\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCollision.cpp">
+      <Filter>Class\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Class\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Class\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Class\Player\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Class\Player\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiaryofRucy.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemData.json">
+      <Filter>Class\Object\Json</Filter>
+    </None>
+    <None Include="ItemData2.json">
+      <Filter>Class\Object\Json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

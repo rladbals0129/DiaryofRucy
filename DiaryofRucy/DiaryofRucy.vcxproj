@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5d1ca719-75d3-4448-bfca-31330951e7cb}</ProjectGuid>
+    <RootNamespace>DiaryofRucy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\박성한\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\dlghw\source\repos\DiaryofRucy3\DiaryofRucy\Jsoncpp\lib_json;C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\언리얼\Desktop\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\le\Desktop\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\박성한\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\Include;C:\Users\rladb\Desktop\팀포폴\DiaryofRucy\Jsoncpp\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\박성한\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\haebi\source\repos\DiaryofRucy2\DiaryofRucy\Jsoncpp\lib_json;C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\rladb\Desktop\팀포폴\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\dlghw\source\repos\DiaryofRucy2\DiaryofRucy\Jsoncpp\lib_json;C:\Users\haebi\source\repos\DiaryofRucy2\DiaryofRucy\Jsoncpp\lib_json;C:\Users\언리얼\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\eunhyeok0226\source\repos\DiaryofRucy\DiaryofRucy\Jsoncpp\lib_json;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>json_vc71_libmtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>Stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>json_vc71_libmtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Ability.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="BigSlime.h" />
+    <ClInclude Include="BossMap.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="GreenTurret.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="ItemChest.h" />
+    <ClInclude Include="ChestMap.h" />
+    <ClInclude Include="D2DImageManager.h" />
+    <ClInclude Include="EndMap.h" />
+    <ClInclude Include="Fountain.h" />
+    <ClInclude Include="EventMap.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="IcicleSpark.h" />
+    <ClInclude Include="INIData.h" />
+    <ClInclude Include="ItemData.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ItemSample.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="JsonDataScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="JsonSaveLoad.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="JsonSaveLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="KingSlime.h" />
+    <ClInclude Include="Kruskal.h" />
+    <ClInclude Include="item.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="MegaFlime.h" />
+    <ClInclude Include="MiniGreenTurret.h" />
+    <ClInclude Include="MintTurret.h" />
+    <ClInclude Include="MushMamBoss.h" />
+    <ClInclude Include="NormalMap.h" />
+    <ClInclude Include="PlayerBullet.h" />
+    <ClInclude Include="CommonMacroFunction.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyBullets.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="Flime.h" />
+    <ClInclude Include="FontManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="EndingScene.h" />
+    <ClInclude Include="GImage.h" />
+    <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="LoadingScene.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MushMam.h" />
+    <ClInclude Include="OpeningScene.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Potal.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="PurpleTurret.h" />
+    <ClInclude Include="RandomFunction.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourcesClass.h" />
+    <ClInclude Include="SaveLoader.h" />
+    <ClInclude Include="SceneChanger.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ShopMap.h" />
+    <ClInclude Include="SingletonBase.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="Slime.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="SoundManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="StartMap.h" />
+    <ClInclude Include="Statue.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="Store.h" />
+    <ClInclude Include="TeamReport.h" />
+    <ClInclude Include="ThunderFlash.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="WindScar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ability.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="BigSlime.cpp" />
+    <ClCompile Include="BossMap.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="GreenTurret.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="ItemChest.cpp" />
+    <ClCompile Include="ChestMap.cpp" />
+    <ClCompile Include="D2DImageManager.cpp" />
+    <ClCompile Include="EndMap.cpp" />
+    <ClCompile Include="Fountain.cpp" />
+    <ClCompile Include="EventMap.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="IcicleSpark.cpp" />
+    <ClCompile Include="item.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="INIData.cpp" />
+    <ClCompile Include="ItemData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ItemSample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JsonDataScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JsonSaveLoad.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JsonSaveLoader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="KingSlime.cpp" />
+    <ClCompile Include="Kruskal.cpp" />
+    <ClCompile Include="MegaFlime.cpp" />
+    <ClCompile Include="MiniGreenTurret.cpp" />
+    <ClCompile Include="MintTurret.cpp" />
+    <ClCompile Include="MushMamBoss.cpp" />
+    <ClCompile Include="NormalMap.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyBullets.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="Flime.cpp" />
+    <ClCompile Include="FontManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp" />
+    <ClCompile Include="EndingScene.cpp" />
+    <ClCompile Include="GImage.cpp" />
+    <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="LoadingScene.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MushMam.cpp" />
+    <ClCompile Include="PixelCollision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="OpeningScene.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerCollision.cpp" />
+    <ClCompile Include="Potal.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="PurpleTurret.cpp" />
+    <ClCompile Include="ResourcesClass.cpp" />
+    <ClCompile Include="SaveLoader.cpp" />
+    <ClCompile Include="SceneChanger.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ShopMap.cpp" />
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="SoundManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="StartMap.cpp" />
+    <ClCompile Include="Statue.cpp" />
+    <ClCompile Include="Stdafx.cpp" />
+    <ClCompile Include="Store.cpp" />
+    <ClCompile Include="TeamReport.cpp" />
+    <ClCompile Include="ThunderFlash.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="WindScar.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiaryofRucy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemData.json" />
+    <None Include="ItemData2.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
